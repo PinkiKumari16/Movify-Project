@@ -8,7 +8,7 @@ Currently, two official plugins are available:
 
 ## Available Scripts
 
-Open the folder in code editor then install npm with "npm i" this command
+Open the folder in the code editor then install npm with *"npm i"* This command
 
 In the project directory, you can run:
 
