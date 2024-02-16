@@ -1,0 +1,33 @@
+.card{
+    height: 35rem;
+    width: 25rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s linear;
+    box-shadow: var(--movies-child-box-shadow);
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.04);
+}
+.cardImage{
+    width: 100%;
+    height: 23rem;
+    object-fit: fill;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 1.5rem;
+}
+
+.movieType span{
+    background-color: var(--movie-type-chip-bg-color);
+    color: var(--navbar-background-color);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}

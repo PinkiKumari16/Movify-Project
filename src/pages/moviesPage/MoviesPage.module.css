@@ -1,0 +1,8 @@
+.movieParent{
+    display: flex;
+    margin: 7rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
