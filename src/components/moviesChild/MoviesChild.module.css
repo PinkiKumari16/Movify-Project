@@ -31,3 +31,15 @@
     padding: 0.5rem;
     border-radius: 0.5rem;
 }
+.movieTypeBox{
+    display: flex;
+    justify-content: space-between;
+}
+.favoriteIcon{
+    transform: 0.2;
+}
+.moreInfo{
+    color: rgb(35, 172, 226);
+    text-decoration: underline;
+    cursor: pointer;
+}

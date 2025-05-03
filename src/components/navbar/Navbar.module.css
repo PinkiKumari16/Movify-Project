@@ -45,6 +45,18 @@
 .theamIcons{
     cursor: pointer;
 }
+.theamBox{
+    display: flex;
+    gap: 1em;
+
+}
+.savedIcon{
+    border: 1px solid var(--navbar-logo-color);
+    cursor: pointer;
+    padding: 1px 2px;
+    color: var(--navbar-logo-color);
+    border-radius: 5px;
+}
 
 @media (max-width: 450px){
     .navbarParent{
